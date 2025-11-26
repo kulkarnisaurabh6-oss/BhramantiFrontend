@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css"; // 👈 create a CSS file for styles
-
+import logoImg from "../../../Images/Logo.png"; // 👈 import your logo image
 export default function Navbar() {
   return (
     <header>
       <div className="nav-inner">
         <div className="logo">
-          <span className="logo-icon">✈️</span>
+          <span className="logo-icon">
+            <img src={logoImg} alt="Bhramanti Logo" className="logo-img" />
+          </span>
           <span className="logo-text">भ्रमंती</span>
         </div>
 

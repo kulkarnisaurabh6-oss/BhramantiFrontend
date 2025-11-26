@@ -9,7 +9,11 @@
   --brand-color: #0e95be; /* <--- set to the design color */
   --brand-text-color: #ffffff; /* optional: text-on-brand if needed */
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* ...existing code... */
 * {
   box-sizing: border-box;
 }
@@ -17,12 +21,10 @@
 body {
   margin: 0;
   font-family: 'Poppins', system-ui;
-  color: #e6eef8;
+  color: #042041;
   overflow-x: hidden;
   height: 100vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("./Images/image.jpg") center/cover no-repeat fixed;
+  
   text-align: center;
 }
 
