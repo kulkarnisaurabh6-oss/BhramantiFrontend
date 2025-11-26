@@ -6,6 +6,8 @@
   --glass: rgba(255, 255, 255, 0.04);
   --muted: #9aa4b2;
   --glass-2: rgba(255, 255, 255, 0.03);
+  --brand-color: #0e95be; /* <--- set to the design color */
+  --brand-text-color: #ffffff; /* optional: text-on-brand if needed */
 }
 
 * {
@@ -22,4 +24,19 @@ body {
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
     url("./Images/image.jpg") center/cover no-repeat fixed;
   text-align: center;
+}
+
+.login-container,
+.login-container h1,
+.login-container h2,
+.login-container h3,
+.login-container p,
+.login-container label,
+.login-container a {
+  color: var(--brand-color) !important;
+}
+
+/* if you need title/heading different (e.g. white on brand background) */
+.login-container .title {
+  color: var(--brand-text-color);
 }
