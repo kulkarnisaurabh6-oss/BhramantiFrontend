@@ -1,0 +1,60 @@
+/* Apply a dark font color to everything inside registration-page */
+.registration-page {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  height: 100vh;
+  background: url('../../Images/image.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  color: #222;   /* 👈 global dark font color */
+  font-family: Arial, sans-serif; /* optional: set a clean font */
+}
+
+/* Registration box */
+.registration-box {
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  color: #222;   /* 👈 ensures text inside stays dark */
+}
+
+/* Heading */
+.registration-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color:black; 
+  width: 100%;  /* darker heading */
+}
+
+/* Inputs, selects, textareas */
+.registration-box input,
+.registration-box select,
+.registration-box textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #222;   /* 👈 dark text inside fields */
+}
+
+/* Buttons */
+.registration-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00695c;
+  color: #fff;   /* keep button text white for contrast */
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.registration-box button:hover {
+  background-color: #004d40;
+}
+

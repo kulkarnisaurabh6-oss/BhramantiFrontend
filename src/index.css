@@ -1,0 +1,25 @@
+:root {
+  --bg: #0f1724;
+  --card: #0b1220;
+  --accent: #ff6fb5;
+  --accent-2: #6bffda;
+  --glass: rgba(255, 255, 255, 0.04);
+  --muted: #9aa4b2;
+  --glass-2: rgba(255, 255, 255, 0.03);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', system-ui;
+  color: #e6eef8;
+  overflow-x: hidden;
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("./Images/image.jpg") center/cover no-repeat fixed;
+  text-align: center;
+}
